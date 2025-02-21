@@ -74,3 +74,28 @@
     font-size: 20px;
     color: #424242;
 }
+
+/* Nav Section */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 102px;
+}
+.nav-listContainer ul{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+.nav-listContainer ul li a{
+    text-decoration: none;
+    color:#424242;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
