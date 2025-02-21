@@ -1,0 +1,76 @@
+/* Google Fonts */
+.work-sans-font{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Default Setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#quickListOfOurFeaturesSection, #featuresYouWillLoveAndEnjoySection,
+#someFactsSection, #ourSponsorsSection, #footerSection{
+    margin: 0 auto;
+}
+#heroSection{
+    margin-bottom: 85px;
+}
+#quickListOfOurFeaturesSection, #featuresYouWillLoveAndEnjoySection, 
+#ourSponsorsSection{
+    margin-bottom: 130px;
+}
+#someFactsSection{
+    margin-bottom: 180px;
+}
+/*Shared Styles*/
+/* Buttons */
+.heroSection-button, .quickListOfOurFeaturesSection-button{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 21px 24px 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+/* Texts */
+.navSection-heading, .quickListOfOurFeaturesSection-heading,
+.featuresYouWillLoveAndEnjoySection-heading1, .someFactsSection-heading,
+.ourSponsorsSection-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.heroSection-heading{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.heroSection-paragraph, .quickListOfOurFeaturesSection-paragraph,
+.featuresYouWillLoveAndEnjoySection-paragraph, .someFactsSection-paragraph,
+.ourSponsors-paragraph{
+    color: #727272;
+}
+
+.quickListOfOurFeaturesSection-heading-color1{
+    color: #727272;
+}
+.quickListOfOurFeaturesSection-heading-color2{
+    color: #FF900E;
+}
+
+.featuresYouWillLoveAndEnjoySection-heading2{
+    font-weight: 600;
+    font-size: 64px;
+    color: #131313;
+}
+
+.footerSection-heading{
+    font-size: 20px;
+    color: #424242;
+}
