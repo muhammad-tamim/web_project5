@@ -13,6 +13,7 @@
 }
 #quickListOfOurFeaturesSection, #featuresYouWillLoveAndEnjoySection,
 #someFactsSection, #ourSponsorsSection, #footerSection{
+    max-width: 1200px;  /*ChatGpt Help Me*/
     margin: 0 auto;
 }
 #heroSection{
@@ -107,6 +108,8 @@ header{
     flex-direction: column;
     align-items: center;
 }
+/* when we use flex-direction: column; Then the align-items property works like 
+justify-content property*/
 .heroSection-description{
     text-align: center;
 }
@@ -116,4 +119,27 @@ header{
 .heroSection-imageContainer img{
     width: 1200px;
     margin: 50px auto 45px auto;
+}
+
+
+/* Quick Of Our Features Section*/
+.quickListOfOurFeaturesSection-container{
+    display: flex;
+    gap: 81px;
+}
+.quickListOfOurFeaturesSection-imageContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quickListOfOurFeaturesSection-descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/* when we use flex-direction: column; Then the align-items property works like 
+justify-content property and justify-content property works like align-item property*/
+}
+.quickListOfOurFeaturesSection-description p{
+    margin: 24px auto 32px auto;
+    line-height: 30px;
 }
