@@ -54,7 +54,7 @@
 }
 .heroSection-paragraph, .quickListOfOurFeaturesSection-paragraph,
 .featuresYouWillLoveAndEnjoySection-paragraph, .someFactsSection-paragraph,
-.ourSponsors-paragraph{
+.ourSponsorsSection-paragraph{
     color: #727272;
 }
 
@@ -214,4 +214,19 @@ justify-content property and justify-content property works like align-item prop
     border-radius: 8px;
     padding: 45px 36px 60px;
     text-align: center;
+}
+
+
+/* Our Sponsors Section */
+.ourSponsorsSection-description{
+    text-align: center;
+}
+.ourSponsorsSection-description p{
+    margin: 24px auto 50px;
+}
+.ourSponsorsSection-imageContainer{
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
