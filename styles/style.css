@@ -67,8 +67,20 @@
 
 .featuresYouWillLoveAndEnjoySection-heading2{
     font-weight: 600;
-    font-size: 64px;
+    font-size: 20px;
     color: #131313;
+}
+.featuresYouWillLoveAndEnjoySection-imageBoxText-heading1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.featuresYouWillLoveAndEnjoySection-imageBoxText-heading2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .footerSection-heading{
@@ -142,4 +154,43 @@ justify-content property and justify-content property works like align-item prop
 .quickListOfOurFeaturesSection-description p{
     margin: 24px auto 32px auto;
     line-height: 30px;
+}
+
+/* Features you WIll Love & Enjoy Section */
+.featuresYouWillLoveAndEnjoySection-description h1{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.featuresYouWillLoveAndEnjoySection-description p{
+    margin: 24px auto 30px auto;
+}
+.featuresYouWillLoveAndEnjoySection-cardContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.featuresYouWillLoveAndEnjoySection-cardItem{
+    padding: 30px 42px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);;
+}
+.featuresYouWillLoveAndEnjoySection-cardItem p{
+    margin-top: 10px;
+}
+.featuresYouWillLoveAndEnjoySection-container{
+    display: flex;
+    justify-content: center;
+    gap: 121px;
+}
+.featuresYouWillLoveAndEnjoySection-image img{
+    width: 590px;
+}
+.featuresYouWillLoveAndEnjoySection-imageBox{
+    padding: 46px 42px 45px 42px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 284px;
+    position: relative;
+    bottom: 100px;
+    right: 70px;
 }
