@@ -20,7 +20,7 @@
     margin-bottom: 85px;
 }
 #quickListOfOurFeaturesSection, #featuresYouWillLoveAndEnjoySection, 
-#ourSponsorsSection{
+#ourSponsorsSection, #footerSection{
     margin-bottom: 130px;
 }
 #someFactsSection{
@@ -87,7 +87,7 @@
     font-weight: 600;
     color: #424242;
 }
-.footerSection-heading{
+.footerSection-paragraph{
     font-size: 20px;
     color: #424242;
 }
@@ -229,4 +229,14 @@ justify-content property and justify-content property works like align-item prop
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+/* Footer Section */
+.footerSection-container{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px;
+}
+.footerSection-container p{
+    text-align: center;
 }
