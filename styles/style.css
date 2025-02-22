@@ -40,7 +40,7 @@
 }
 /* Texts */
 .navSection-heading, .quickListOfOurFeaturesSection-heading,
-.featuresYouWillLoveAndEnjoySection-heading1, .someFactsSection-heading,
+.featuresYouWillLoveAndEnjoySection-heading1, .someFactsSection-heading1,
 .ourSponsorsSection-heading{
     font-weight: 700;
     font-size: 45px;
@@ -82,7 +82,11 @@
     color: #FFFFFF;
     text-align: center;
 }
-
+.someFactsSection-heading2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
 .footerSection-heading{
     font-size: 20px;
     color: #424242;
@@ -193,4 +197,21 @@ justify-content property and justify-content property works like align-item prop
     position: relative;
     bottom: 100px;
     right: 70px;
+}
+
+
+/* Some Facts Section */
+.someFactsSection-description p{
+    margin: 24px auto 100px;
+}
+.someFactsSection-cardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.someFactsSection-cardItem{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 36px 60px;
+    text-align: center;
 }
