@@ -4,6 +4,9 @@ This is a simple HTML & CSS project where I focused on practicing Flexbox, Grid,
 ## Note:
 The website isn’t responsive. Since my screen resolution is 1600 × 900 pixels, I designed it based on that. If you want to see it properly, you might need to adjust your browser window to match this resolution
 
+## Project Demo Video:
+https://github.com/user-attachments/assets/bbbf026c-1d47-418d-8f78-031d80016554
+
 ## Live Site Link:
 https://muhammad-tamim.github.io/web_project5/
 
